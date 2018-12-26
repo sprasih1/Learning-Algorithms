@@ -19,7 +19,7 @@ let F(n) be nth fibonacci number.
          return F[0][0];
        }
 
-       /* Optimized version of power() in method 4 */
+       /* Optimized version of power() is also there in dynamic programming*/
        void power(int F[2][2], int n)
        {
          if( n == 0 || n == 1)
