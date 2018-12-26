@@ -3,8 +3,11 @@ Used to calculate fibonacci and other sequences in O(log n)
 let F(n) be nth fibonacci number.
     Then F(n) = F(n-1) + F(n-2)
     In matrix representation :
+    
        First matrix   =   Second matrix  *  Third matrix
+       
        | F(n)   |     =    | 1     1 |    * | F(n-1) |
+       
        | F(n-1) |     =    | 1     0 |    * | F(n-2) |
        
     Implementation:
