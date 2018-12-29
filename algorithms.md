@@ -78,5 +78,6 @@ main(){
 The complexity of above code is O(log n* log log n)
 
 
-######Sieve of Eratosthenes : 
+###### Sieve of Eratosthenes : 
 Given a number n, find all primes smaller than or equal to n.
+[Tutorial](https://www.geeksforgeeks.org/sieve-of-eratosthenes/).
