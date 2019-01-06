@@ -1,5 +1,7 @@
 #### Finding number of times b appears in sorted list:
+
 public class Solution {
+    
     // DO NOT MODIFY THE LIST. IT IS READ ONLY
     public int findCount(final List<Integer> a, int b) {
         int upper = binary_search_index(a, b, false);
