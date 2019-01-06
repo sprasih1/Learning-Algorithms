@@ -1,6 +1,4 @@
-
-#### Finding number of times a number b appears in a sorted list:
-
+#### Finding number of times b appears in sorted list:
 public class Solution {
     // DO NOT MODIFY THE LIST. IT IS READ ONLY
     public int findCount(final List<Integer> a, int b) {
