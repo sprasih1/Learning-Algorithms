@@ -37,7 +37,7 @@ public class Solution {
     }
 }
 
-#### Minimum value in list after a certain number of rotations about a pivot
+#### Minimum value in list after a certain number of rotations about a pivot or number of rotations performed(for this return the index of minimum element)
 
 public class Solution {
     // DO NOT MODIFY THE LIST
