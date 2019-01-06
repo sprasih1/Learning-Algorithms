@@ -1,5 +1,5 @@
 
-######Finding number of times a number b appears in a sorted list
+###### Finding number of times a number b appears in a sorted list
 
 public class Solution {
     // DO NOT MODIFY THE LIST. IT IS READ ONLY
