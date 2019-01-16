@@ -81,3 +81,7 @@ The complexity of above code is O(log n* log log n)
 ###### Sieve of Eratosthenes : 
 Given a number n, find all primes smaller than or equal to n.
 [Tutorial](https://www.geeksforgeeks.org/sieve-of-eratosthenes/).
+
+
+Notes:
+The maximum value of Nmodx where x∈[1,N], if N is odd, is (N−1)/2 when x=(N+1)/2, and if N is even, is N/2−1 when x=N/2+1.
