@@ -71,3 +71,26 @@ public class Solution {
         return -1;
     }
 }
+
+int lower_bound(int start,int end,int item)
+{
+    while(start<end)
+    {
+        int mid=(start+end)>>1;
+        if(arr[mid]>=item)
+            end=mid;
+        else start=mid+1;
+    }
+    return start;
+}
+int upper_bound(int start,int end,int item)
+{
+    while(start<end)
+    {
+        int mid=(start+end)>>1;
+        if(arr[mid]<=item)
+            start=mid+1;
+        else end=mid;
+    }
+    return start;   
+}
