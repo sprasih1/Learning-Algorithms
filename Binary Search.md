@@ -72,8 +72,11 @@ public class Solution {
     }
 }
 
+##Lower Bound and Upper bound :
+
 int lower_bound(int start,int end,int item)
 {
+
     while(start<end)
     {
         int mid=(start+end)>>1;
@@ -83,8 +86,11 @@ int lower_bound(int start,int end,int item)
     }
     return start;
 }
+
+
 int upper_bound(int start,int end,int item)
 {
+
     while(start<end)
     {
         int mid=(start+end)>>1;
@@ -93,4 +99,5 @@ int upper_bound(int start,int end,int item)
         else end=mid;
     }
     return start;   
+}
 }
